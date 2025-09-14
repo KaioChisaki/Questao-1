@@ -2,8 +2,8 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        ListaEncadeadaComparator<Aluno> listaOrdNome = new ListaEncadeadaComparator<Aluno>(false,new ComparadorAlunoNome());
-        ListaEncadeadaComparator<Aluno> listaOrdMatricula = new ListaEncadeadaComparator<>(false, new ComparadorAlunoMatricula());
+        ListaEncadeadaComparator<Aluno> listaOrdNome = new ListaEncadeadaComparator<Aluno>(true,new ComparadorAlunoNome());
+        ListaEncadeadaComparator<Aluno> listaOrdMatricula = new ListaEncadeadaComparator<>(true, new ComparadorAlunoMatricula());
 
         Aluno a1 = new Aluno(1, "Zé");
         Aluno a2 = new Aluno(2,"Mané");
